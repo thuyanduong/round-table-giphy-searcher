@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App';
+import GifProvider from './context/GifProvider'
 
 ReactDOM.render(
-  <App />,
+  <GifProvider/>,
   document.getElementById('root')
 );
